@@ -1,4 +1,4 @@
-# Desafio Frontend
+# Desafio React
 
 ## Configuração do Projeto
 
