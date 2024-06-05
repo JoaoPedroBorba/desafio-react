@@ -1,0 +1,24 @@
+{
+  "employees": [
+    {
+      "name": "Giselle Torres Lopess",
+      "status": "Inativo",
+      "role": "Cargo 2",
+      "id": "2"
+    },
+    {
+      "name": "Ana Bispo dos Santos",
+      "status": "Inativo",
+      "role": "Cargo 1",
+      "id": "3",
+      "cpf": "000.000.000-99"
+    },
+    {
+      "name": "Regina Elisa Souza",
+      "status": "Ativo",
+      "role": "Cargo 3",
+      "id": "4",
+      "cpf": "000.000.000-99"
+    }
+  ]
+}

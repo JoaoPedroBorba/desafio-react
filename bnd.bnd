@@ -1,0 +1,5 @@
+Bundle-Name: My React App
+Bundle-SymbolicName: my.react.app
+Bundle-Version: 1.0.0
+
+-includeresource: build

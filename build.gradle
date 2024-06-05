@@ -1,0 +1,21 @@
+plugins {
+  id 'com.liferay.plugin' version '4.0.0'
+  id 'com.liferay.plugin.js.module' version '4.0.0'
+}
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+  maven {
+    url "https://repository-cdn.liferay.com/nexus/content/groups/public"
+  }
+}
+
+dependencies {
+  compileOnly group: "com.liferay.portal", name: "release.portal.api", version: "4.0.0"
+}
+
+tasks.named("jar") {
+  dependsOn "npmRunBuild"
+  from("build")
+}
