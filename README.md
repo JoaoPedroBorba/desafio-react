@@ -7,7 +7,7 @@
 
 2. Navegue até o diretório do projeto:
 
-    cd desafio-frontend
+    cd desafio-react
 
 
 3. Instale as dependências:
